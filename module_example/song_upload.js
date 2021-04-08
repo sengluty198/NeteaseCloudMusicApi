@@ -4,8 +4,8 @@ const path = require('path')
 
 async function main() {
   const result = await login_cellphone({
-    phone: 18873884507,
-    password: ,
+    phone: '手机号',
+    密码: '密码',
   })
   const filePath = './test.mp3'
   try {
